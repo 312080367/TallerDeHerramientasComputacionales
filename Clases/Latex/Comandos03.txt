@@ -1,0 +1,150 @@
+    1  ls
+    2  ls -la
+    3  cd .config/
+    4  ls
+    5  cd pulse/
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd
+   12  cd/
+   13  ts
+   14  tocuh/tmp/algo
+   15  uname .a
+   16  a
+   17  $]tocuh/tmp/Jorge
+   18  uname .a
+   19  touch/tmp/jorge
+   20  ls-l/tmp/no se
+   21  $]ls-l/tmp/algo
+   22  $]ls -l /tmp/algo
+   23  ls -l /tmp/algo
+   24  $] touch / tmp / algo
+   25  $] toch / tmp / Jorge
+   26  uname - a
+   27  uname -a
+   28  filo7bin/bash/algo
+   29  filo/bin/bash/jorge
+   30  file /bin /bash
+   31  ls - l /bin /bash
+   32  touch/ tmp / jorge
+   33  touch /tmp/Jorge
+   34  ls - l /tmp/algo
+   35  ls - l/tmp/algo
+   36  ls - l /tmp/algo
+   37  git init
+   38  git config --global user.mail "Jorge_SAM25@ciencias.unam.mx"
+   39  git congig --global user.name "418003839"
+   40  git config --global user.mail ""
+   41  git congig --global user.mail "418003839"
+   42  git clone https://github.com/418003839/TallerDeHerramientasComputacionales.git
+   43  ls
+   44  cd TallerDeHerramientasComputacionales/
+   45  ls
+   46  git status
+   47  git add *
+   48  git commit
+   49  git config --global user.mail"Jorge_SM25@ciencias.unam.mx"
+   50  git commit
+   51  git config --global user.name "4518003839"
+   52  git commit
+   53  git config --user.email "Jorge_SM25@ciencias.unam.mx"
+   54  ds
+   55  git config --global user.email "Jorge_SM25@ciencias.unam.mx"
+   56  git config --global user.name "418003839"
+   57  git commit
+   58  git push
+   59  ls
+   60  cd Descargas/
+   61  ls
+   62  cd TallerDeHerramientasComputacionales/
+   63  cd
+   64  cd Documentos/
+   65  cd TallerDeHerramientasComputacionales/
+   66  ls
+   67  ls -la
+   68  cd
+   69  less
+   70  ls
+   71  less .gitconfig
+   72  cd Descargas/
+   73  cd ManejodeDatos/
+   74  git config --global user.email "asaped96@gmail.com"
+   75  cd
+   76  git config --global user.name "312080367"
+   77  git config --global user.email "asaped96@gmail.com"
+   78  git init
+   79  git config --global user.mail "asaped96@gmail.com"
+   80  git config --global user.name "312080367"
+   81  git init
+   82  git clone https://github.com/312080367/TallerDeHerramientasComputacionales.git
+   83  cd Descargas/
+   84  git clone https://github.com/312080367/TallerDeHerramientasComputacionales.git
+   85  vi
+   86  ls
+   87  ls TallerDeHerramientasComputacionales
+   88  vi
+   89  LS -LA
+   90  ls -la
+   91  cd TallerDeHerramientasComputacionales/
+   92  ls -la
+   93  cd TallerDeHerramientasComputacionales/
+   94  ls
+   95  vi README.md 
+   96  git add *
+   97  vi README.md 
+   98  git commit
+   99  git push
+  100  ls
+  101  mkdir -p Clases/Latex
+  102  ls
+  103  ls >Clases/
+  104  ls Clases/
+  105  ls Clases/Latex/
+  106  ls -la > Salida
+  107  less Salida
+  108  vi Salida
+  109  cd/tmp/
+  110  cd
+  111  cd /tmp/
+  112  ls /tmp/Este/Es/un/Directorio/Anidado/
+  113  mkdir /tmp/Este/
+  114  mkdir /tmp/Este/Es/
+  115  mkdir /tmp/Este/Es/un/
+  116  mkdir /tmp/Este/Es/un/Directorio/
+  117  mkdir /tmp/Este/Es/un/Directorio/Añadido/
+  118  mkdir -p /tmp/este/Es/un/Directorio/Añadido/
+  119  mkdir -p
+  120  cd
+  121  cd Descargas
+  122  ls
+  123  cd TallerDeHerramientasComputacionales
+  124  ls
+  125  ls Clases/
+  126  ls Clases/Latex/
+  127  vi Clases/Programas/
+  128  ls Clases/Programas/
+  129  ls CLases
+  130  cd
+  131  cd Descargas
+  132  ls
+  133  cd TallerDeHerramientasComputacionales
+  134  ls
+  135  ls Clases/
+  136  ls Clases/Latex/
+  137  ls Clases/Programas/
+  138  mkdir -p Clases/Programs/
+  139  ls Clases/
+  140  ls Clases/Latex/
+  141  ls Clases/Progra/
+  142  ls Clases/Programas/
+  143  ls Clases/Programs/
+  144  vi Clases/Latex/03.txt
+  145  git add *
+  146  git status
+  147  git commit -m "Se modifico el README.md y se creo el archivo 03 en el directorio Latex dentro de Clases"
+  148  git commit -m "Se creo el archivo Salida y se creo el archivo 03 en el directorio Latex dentro de Clases"
+  149  git push
+  150  history > Clases/Latex/Comandos03.txt
