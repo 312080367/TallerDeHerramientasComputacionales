@@ -5,3 +5,10 @@ v0= 20
 t=6
 vf= v0 + ac*t
 print vf
+print ''' esta
+es
+una cadena
+multilinea''' #este es un comando para texto multilinea
+
+print ' esta \n es \ņ una cadena \n multilinea' # para texto multilinea con el comando salto de linea;\n
+
