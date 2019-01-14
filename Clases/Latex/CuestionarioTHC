@@ -1,0 +1,157 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{Pictures/}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
+
+	\title{\Huge Taller de Herramientas Computacionales}
+	%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+	\author{Edwin Cardoso Tovar}%autor del escrito
+	\date{13/01/19}%fecha del escrito
+
+\begin{document}%inicia el documento
+\maketitle
+%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+\begin{center}%inicia centrado
+\includegraphics[scale=0.70]{logofc.jpg}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+\end{center}%termina el centrado para la imagen
+\newpage%crea una nueva página
+
+\title{\Huge Cuestionario Primera Semana THC\\}%titulo2 \\ sirven para saltar una linea.
+
+
+\begin{enumerate}%Inicio de númeración para enlistar las cosas vistas en clase.
+	\item ¿Qué es Linux?\\ 
+LINUX o GNU/LINUX,es un Sistema Operativo como MacOS, DOS o Windows. Es decir, Linux es el software necesario para que tu ordenador te permita utilizar programas como: editores de texto, juegos, navegadores de Internet, etc. Linux puede usarse mediante un interfaz gráfico al igual que Windows o MacOS, pero también puede usarse mediante línea de comandos como DOS.: %item sirve enlistar el elemento, este es el primer elemento enumerado.
+	
+	\item ¿Qué es el núcleo de Linux?\\
+El núcleo o Kernel de Linux es un conjunto de drivers necesarios para usar el ordenador y haya una conexión entre software y hardware. %Segundo elemento enumerado.
+	
+	\item ¿Cuáles son algunas de las distintas distribuciones más populares de Linux?\\
+De las distribuciones más populares de Linux están: Debian, Fedora,Ubuntu,Slax , etc.
+ 
+     \item Mencione ejemplos de shell:\\
+BASH en Linux, PowerShell en Windows
+     
+     \item Mencione ejemplos de shell\\ 
+     BASH en Linux, PowerShell en Windows
+
+     
+     \item ¿Para qué sirve el comando TOUCH?\\
+Sirve para crear un fichero vacio, y si ya existe uno le modifica le modifica la hora y fecha.
+  
+     \item ¿Para qué sirve el comando PWD?\\
+Este comando nos ayuda a comprobar en qué directorio nos encontramos
+
+    \item ¿cuál es la función del comando LS?\\
+Para ver los archivos de un directorio
+    
+    \item¿Con qué comando uno puedo ver el kernel del sistema operativo?\\
+uname -a
+
+    \item ¿Qué es una variable de entorno?\\
+Es iformació que define un comportamieto.
+
+    \item ¿Para qué sirve la variable de entorno PATH?\\
+Nos muestra la ruta o camino de busqueda de los archivos binarios
+
+    \item ¿Qué fucnión tiene el comando LESS?\\
+Permite revisar el contenido de un archivo
+
+    \item ¿Cuál es la utilidad  que nos permite ejecutar comandos con privilegios de administrador?\\
+SUDO
+
+    \item ¿Qué es Git?\\
+git es un software de control de versiones pensando y diseñado en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. 
+Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
+    
+    \item ¿Cómo se crea un repositorio nuevo de git?\\
+  git init 
+
+    \item ¿Para qué sirve el comando >git push?\\
+Para subir un repositorio a git
+
+    \item ¿Cuales son los comandos para instalar git si no está en tu ordenador?\\
+sudo apt-get update
+sudo apt-get install git
+ 
+    \item ¿Cuáles son los comandos para añadir un nuevo repositorio git?\\
+git add *
+git commit (se agrega el comentario , presiona uno las teclas esc + shift + :.
+Si no se escribio comentario escribimos:  
+Si se escribió un comentario: wq
+(posteriormente usamos el comando git push)
+git push ( instroducimos nuestro nombre de usaurio y contraseña) y listo .
+
+    
+    \item ¿Qué es vi en Fedora?\\
+Es un editor desde la consola de Linux por lo cual solo se utiliza el teclado; podrás crear y modificar archivos
+de texto .
+
+    \item ¿Cuál es el comando para crear un archivo de texto?\\
+ vi "nombre del archivo" .md . ejemplo: vi Readme.md
+ 
+    \item ¿Como editar un archivo con vi?\\
+ vi Readme.md, presionar la tecla "i" e insertar las modificaciones que uno le quiere hacer.
+ 
+    \item ¿Cuál es el comando que me permite mostrar archivos de texto en la terminal?\\
+cat , ejemplo: cat README.md
+     
+    \item ¿Cómo salirse del editor vi?\\
+Presionar las teclas esc + shift + :
+Si no se modificó nada presionar "q"
+Si se hizo alguna modificación presionar "wq"
+Si se hizo algún cambio pero no lo queremos presionar "q!"
+
+    \item ¿Para qúe nos sirve el comando mkdir?\\ 
+Para crear un directorio
+
+    \item ¿Cuál es la función de mkdir -p?\\
+Funcina de manera que crea más subdirectorios o directorios padre
+
+    \item ¿Qué es Python?\\
+Python es un lenguaje de scripting independiente de plataforma y orientado a objetos, preparado para realizar cualquier tipo de programa, desde aplicaciones Windows a servidores de red o incluso, páginas web.
+ Es un lenguaje interpretado, lo que significa que no se necesita compilar el código fuente para poder ejecutarlo, lo que ofrece ventajas como la rapidez de desarrollo e inconvenientes como una menor velocidad.
+
+    \item ¿Qué es un IDE?\\
+Un entorno de desarrollo integrado es una aplicación informática que proporciona servicios integrales
+para facilitarle al desarrollador o programador el desarrollo de software.
+
+    \item ¿Cúal es el IDE para Python?\\
+IDLE (Integrated DeveLopment Environment for Python) es el entorno de desarrollo que permite
+editar y ejecutar los programas.
+
+    \item¿Cómo activar IDLE desde Python?\\
+Escribir idle y presionar enter.
+
+    \item ¿Qué hace el comando PRINT en Python?\\
+Hace eco de la instrucción dada.
+
+    \item ¿Cómo mantener en segundo Plano a Python si se necesitan hacer otros comandos desde bash?\\
+con el comando bg
+
+    \item ¿Qué es una cadena en Python?\\
+es algo que está encerrado entre comillas, ejemplo: 'esto es una cadena'
+
+    \item ¿Cómo escribir un texto multilinea?\\
+    Con tres comillas '''....''' . Ejemplo: ''' para un texto multilinea '''
+    
+    \item ¿Qué es LaTex?\\
+ es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica. 
+Por sus características y posibilidades, es usado de forma especialmente intensa en la generación de artículos y libros científicos que incluyen, entre otros elementos, expresiones matemáticas.
+
+    \item ¿Qué es TexStudio?\\
+TeXstudio es un editor de LaTeX de código abierto y Multiplataforma con una interfaz similar a Texmaker.
+TeXstudio es un IDE de LaTeX que proporciona un soporte moderno de escritura, como la corrección ortográfica interactiva, plegado de código y resaltado de sintaxis.
+Originalmente llamado TexMakerX, TeXstudio se inició como un Fork de Texmaker que trató de extenderlo con características adicionales, manteniendo su apariencia. 
+Se ejecuta en Windows, Unix / Linux, BSD, y sistemas Mac OS X.
+
+    
+    
+
+
+\end{enumerate}%finaliza el enlistado principal
+
+
+\end{document}%termina el documento
