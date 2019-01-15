@@ -7,5 +7,6 @@ def diana(x,y):
         return (5)
     if (x<5 or x>25) and y<10:
         return (3)
+
     
     
