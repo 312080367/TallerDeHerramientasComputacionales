@@ -16,7 +16,7 @@
 
 def ulam(x):
     #if (x/2)*2-x== 0:(tambien se puede usar esto)
-    if x%2==0:
+    if x%2==0: #este % es el modulo que nos ayuda a ver si una division es intera o no,si da entero se va a x/2, si no es asi se va a 3*x+1
     
         return x/2
     else:
