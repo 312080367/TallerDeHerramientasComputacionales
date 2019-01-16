@@ -1,0 +1,68 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{/home/edwincardoso/Descargas/TallerDeLasHerramientasComputacionales/Clases/Latex/Imagenes}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
+
+\title{\Huge Taller de Herramientas Computacionales}
+%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+\author{Edwin Cardoso Tovar}%autor del escrito
+\date{14/01/19}%fecha del escrito
+
+\begin{document}
+	\maketitle
+	%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+	\begin{center}%inicia centrado
+		%\includegraphics[scale=0.40]{1.png}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+	\end{center}%termina el centrado para la imagen
+	\newpage%crea una nueva página
+	
+	\title{\textbf{\Huge Clase 2 (Bitacora)\\}) \\}%titulo2 \\ sirven para saltar una linea.
+	
+	El profesor nos hizo la recomendación de installar una máquina virtual en equipos con 4 o más cores(núcleos), repasamos el comando top que nos muestra la información sobre la coputadora como el CPU y su actividad.
+	También vimos el comando set que muestra las vaiables de entorno y un nuevo comando que es "set|less", este comando lo que hace es paginar las variables de entorno pues "set" las muestr por lista.
+	Además de eso vimos otros 3 nuevos comandos que son :\\
+	$>less (muestra el contenido de un archivo paginado)$\\
+	$>file (Despliega los archivos de otro archivo o de un directorio)$\\
+	$>cd  /dev (aparatos o partes conectadas con el equipo)$\\
+	
+	Posteriormente vimos lo que es git y uno de sus servidores github, git es un software que está pensado para  grupos de desarrolldores o programadores.
+	git hub es uno de sus servidores que nos sirve para bajar información , subir información, registrar cambios o regresar cambios y lo vamos a estar utilizando para subir nuestras bitacoras y programas .
+    Nos enseñaron como instalar github y como crear un repositorio, a continuación pondré los comandos:\\
+    (para instalar github)\\
+    $>git init$\\
+    $>sudo apt-get upgrade$  (en fedora es dnf en lugar de apt)\\
+    $>sudo apt-get install git$
+    $>git config --global user.email "asaped96@gmail.com"$\\
+    $>git config --global user.name "312080367"$\\
+    
+    creamos un repositorio thc y compiamos el enlace de nuestro repositorio :https://github.com/312080367/TallerDeHerramientasComputacionales.git\\
+    Algo importante que debemos saber es que solo se clona el repositorio cuando por primera vez vamos a descargar nuestros archivos a nuestra computadora.
+    A continuacion les dare las instrucciones de como crear un repositorio:
+    En git hub creamos nuestro repositorio , copiamos nuestro enlace (es el que tengo arriba) y usar los siguentes comandos en el bash:\\
+    $>cd Descargas (este es el directorio en el que vas a crear el repositorio)$\\
+    $>git clone "aqui pegas tu enlace del repositorio"$\\
+    $>git cd "nombre del repositorio"$\\
+    $>git add *$\\
+    $>git commit (este comando es para hacer un comentario en el repositorio, para salirse del commit presinas las teclas esc + shift + : . si hiciste un comentario escribes wq y si no hiciste nada solo q)$\\ 
+    $>git push $\\
+    $>escribes tu nombre de usuario$\\
+    $>escribes tu password$\\
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+\end{document}

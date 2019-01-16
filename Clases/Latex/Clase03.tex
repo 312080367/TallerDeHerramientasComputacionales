@@ -1,0 +1,59 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{/home/edwincardoso/Descargas/TallerDeLasHerramientasComputacionales/Clases/Latex/Imagenes}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
+
+\title{\Huge Taller de Herramientas Computacionales}
+%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+\author{Edwin Cardoso Tovar}%autor del escrito
+\date{14/01/19}%fecha del escrito
+
+\begin{document}
+	\maketitle
+	%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+	\begin{center}%inicia centrado
+		%\includegraphics[scale=0.40]{1.png}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+	\end{center}%termina el centrado para la imagen
+	\newpage%crea una nueva página
+	
+	\title{\textbf{\Huge Clase 3 (Bitacora)\\}) \\}%titulo2 \\ sirven para saltar una linea.
+	
+	En esta clase vimos que en Linux hay archivos que no se pueden ver o no se sabe que tipo de archivos son o su información que contienen, así que para saber el tipo de archivo usamos el comando\\
+	
+	$>file "nombre del archivo"$	(indica el nombre y tipo de archivo)\\
+	
+	$>ls -la $ (muestra información sobre directorios y archivos\\
+	
+	si hacemos alguún cambio en algún archivo, va uno al repositorio en el que se encuentra ese archivo y usamos el comando git add* para registrar los cambios , después git commit , seguido de git push y así se actualizan todos los cambios que uno vaya haciendo o si se crea un nuevo archivo desde la computadora.\\
+	
+	CAT es un comando  que nos muestra el contenido de un archivo y se usa de esta manera:\\
+	$>cat "nombre del archivo"$,\\
+	tambien aprendimos como hacer nuevos directorios y el comando que los crea, para crear un directorio es de la siguiente manera:\\
+	$(nos dirigimos al directorio en el que queremos crear uno nuevo)\\
+	>mkdir "nombre del nuevo directorio"$\\
+	$>mkdir -p directorio1/direcotio2$ (crea un directorio padre, si se usa mkdir /p crea todos los directorios necesarios para llegar al directorio que estamos creando)\\
+	
+	Regresando a github aprendimos una forma más rápida de hacer commit , esta es: "git commit -m".\\
+	El comando vi crea un documento de texto plano, de hecho vi es un editor de Linux y su comando es vi al momento de crear uno y se usa así:\\
+	$>vi clases/latex/03.txt$\\
+	$>touch README.md$(crea un documento con el nombre README)\\	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
+	
+	
+	
+	
+	

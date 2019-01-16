@@ -1,42 +1,36 @@
-%\documentclass{article}
-\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{xcolor}
-\usepackage[utf8] {inputenc}
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{amssymb}
 \usepackage{enumitem}
-\graphicspath{/home/thc/Descargas/TallerDeHerramientasComputacionales/Clases/Latex/Imagenes/}
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{Imagenes/}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
 
-%Aqui inicia la portada de mi documento
 \title{\Huge Taller de Herramientas Computacionales}
-\author{Edwin Cardoso Tovar}
-\date{11/01/2019}
+%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+\author{Edwin Cardoso Tovar}%autor del escrito
+\date{15/01/19}%fecha del escrito
 
-
-\begin{document}
+\begin{document}%inicia el documento
 	\maketitle
-    %\includegraphics[scale=0.40]{1.png}
-    \newpage
-    
-    \title{\Huge Mi primera Nota del curso\\}
-    
-    \textbf{Lo que hice esta primera clase en el curso}
-    
-    \begin{enumerate}
-    	\item Distintas distribuciones de Linux,
-    	estas son:
-    	\begin{enumerate}
-    		\item Fedora
-    		\item Ubuntu
-    		
-    	\end{enumerate}
-    	\item Conocer Comandos:
-    	\begin{enumerate}
-    		\item \color{magenta}\textbf{set}
-    		
-    		
-    	
-    	\end{enumerate}
-    \end{enumerate}
+	%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+	\begin{center}%inicia centrado
+	%	\includegraphics[scale=0.40]{1.png}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+	\end{center}%termina el centrado para la imagen
+	\newpage%crea una nueva página
+	
+	\title{\Huge Clase 1 (Bitácora)  \\}%titulo2 \\ sirven para saltar una linea.
+	
+Nos hablaron de distintos tipos de sistemas operativos como lo son: Windows, Linux, iOS etc. Y que no todos los archivos se pueden ejecutar en estos sistemas operativos, por ejemplo en Windows existen los archivos .exe y estos no se pueden ejecutar o archivar en cualquier otro sistema. Después el profesor nos hizo mención del "Bash"(Bourne-again shell) el cual es un programa informático, cuya función consiste en interpretar órdenes con un determinado lenguaje, además que no solo es de Linux pues ya se ha llevado a otros sistemas como Windows y Android.\\
+
+Posteriormente nos habló del bit, el bit en informática es la unidad mínima de información que puede tener solo dos valores, cero o uno.\
+Hicimos un ejercicio que consistia en saber cuánta información hay 8 bits,qué es la forma en que se desalloraban los videojuegos de antes y como se representa, es decir los 8 bits los podemos representar como 8 casillas y en éstas va a estar el uno o cero dependiendo del estado en que se encuentren (prendidas o apagadas respectivamente) esto nos dio un número de la forma : $\sqrt{2^0} + \sqrt{2^1} + \sqrt{2^1} + \sqrt{2^2} + \sqrt{2^3} + \sqrt{2^4} + \sqrt{2^5} + \sqrt{2^6} + \sqrt{2^7}= 255$
+
+
+
+
+
+
 	
 \end{document}

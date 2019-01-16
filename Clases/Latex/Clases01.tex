@@ -1,0 +1,66 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{/home/edwincardoso/Descargas/TallerDeLasHerramientasComputacionales/Clases/Latex/Imagenes}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
+
+\title{\Huge Taller de Herramientas Computacionales}
+%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+\author{Edwin Cardoso Tovar}%autor del escrito
+\date{07/01/19}%fecha del escrito
+
+\begin{document}%inicia el documento
+	\maketitle
+	%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+	\begin{center}%inicia centrado
+		%\includegraphics[scale=0.40]{1.png}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+	\end{center}%termina el centrado para la imagen
+	\newpage%crea una nueva página
+	
+	\title{\Huge Clase 1 (Bitácora)  \\}%titulo2 \\ sirven para saltar una linea.
+	
+	Nos hablaron de distintos tipos de sistemas operativos como lo son: Windows, Linux, iOS etc. Y que no todos los archivos se pueden ejecutar en estos sistemas operativos, por ejemplo en Windows existen los archivos .exe y estos no se pueden ejecutar o archivar en cualquier otro sistema. Después el profesor nos hizo mención del "Bash"(Bourne-again shell) el cual es un programa informático, cuya función consiste en interpretar órdenes con un determinado lenguaje, además que no solo es de Linux pues ya se ha llevado a otros sistemas como Windows y Android.\\
+	
+	Posteriormente nos habló del bit, el bit en informática es la unidad mínima de información que puede tener solo dos valores, cero o uno.\
+	Hicimos un ejercicio que consistia en saber cuánta información hay 8 bits,qué es la forma en que se desalloraban los videojuegos de antes y como se representa, es decir los 8 bits los podemos representar como 8 casillas y en éstas va a estar el uno o cero dependiendo del estado en que se encuentren (prendidas o apagadas respectivamente) esto nos dio un número de la forma :  $2^0 + 2^1 + 2^2 + 2^3 + 2^4 + 2^5 + 2^6 + 2^7= 255$ que es cuando todas las casillas se encuentran con el número uno, de igual forma nos enseñó los tres tipos de permisos orientado a tres objetos, que son: usuario, grupo y todos. Estos tres permisos son lectura, escritura  y ejecución ahora imaginemos que tenemos un archivo  en nuestro ordenador y estos permisos están configurados de la siguiente manera:\\
+	USUARIO: rwx\\
+	GRUPO:rw-\\
+	TODOS:r--      Donde r=4, w=2 y x=1.\\
+	
+	Para ver los permisos en la terminal se usan los siguientes comandos:\\
+	$>ls -l /bin/bash$\\
+	$>touch  /tmp/algo$\\
+	$>ls -l   /tmplalgo$\\
+	$>chmod   700   /tmp/algo$\\
+	$>chmod  751   /tmp/algo$\\
+	$>/tmp/algo$\\
+	
+	
+	en estos comandos lo que es importante recalcar son los valores después de chmod ,aquí lo que debemos de ver es que en 700 cada dígito representa a usuario, grupo y todos respectivamente. el número del usuario es el 7 y este tiene el valor de 7 pues los permiso que son rwx , si sumamos sus valores dan un total de 7 por lo tanto tiene todos los permisos, de forma análoga seria con el 751 dónde el usuario tiene todos los permios, el grupo leer y ejecutar y todos sólo ejecutar.\\
+	
+	Siguiendo con la clase aprendimos lo que es una variable de entorno , una variable de entorno es información que define un comportamiento y tanto Windows como Linux tienen sus variables de entorno pero ambos utilizan utilizan PATH,esta variable nos permite saber las rutas que están definidas en mi sistema Linux y para eso debemos usar los siguientes comandos:\\
+	$>echo (signo de pesos)PATH$\\
+	$>set (para observar las variables de entorno)$\\
+	$>pwd (indica el direcotrio en el que me encuentro)$\\
+	$>cd /tmp$\\
+	$.  /algo$\\
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
