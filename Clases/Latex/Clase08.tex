@@ -1,0 +1,55 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%especificaciones del documento
+\usepackage{amsmath}%paquete para escribir expresiones matemámaticas
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}%paquete para poder incluír imagenes en el documento
+\usepackage{xcolor} %paquete de LaTex para poder poner otro texto
+\graphicspath{{/home/edwincardoso/Descargas/TallerDeLasHerramientasComputacionales/Clases/Latex/Imagenes}}%directorio de la imagen, este lo cambian por el directorio en el que ustedes guardaron su imagen 1.png
+\usepackage[utf8]{inputenc} %para poder poner acentos
+
+\title{\Huge Taller de Herramientas Computacionales}
+%\title{\Huge \colorbox{magenta}{Taller de Herramientas computacionales}} %De esta forma con colorbox pone el texto dentro de una "caja" de color.
+\author{Edwin Cardoso Tovar}%autor del escrito
+\date{16/01/19}%fecha del escrito
+
+\begin{document}
+	\maketitle
+	%\vfill %Para rellenar el espacio y colocar hasta abajo de la pagina el siguiente texto, imagen.
+	\begin{center}%inicia centrado
+		%\includegraphics[scale=0.40]{1.png}%del lado izquierdo se muestra el tamaño de la imagen, del derecho se escribe el nombre de la imagen a incluir en el texto
+	\end{center}%termina el centrado para la imagen
+	\newpage%crea una nueva página
+	
+	\title{\textbf{\Huge Clase 8 (Bitacora)\\} \\}%titulo2 \\ sirven para saltar una linea.
+	
+	En esta clase aprendimos mas comandos y funciones de bash. Por ejemplo si estamos en bash y abrimos cualquier programa por ejemplo TexStudio al instante no podemos seguir dando comandos, entonces lo que hacemos es presionar CTRL + Z , con esto saldremos inmediato de la aplicación poniendola en pausa.El problema aquí es que no vamos a poder seguir trabajando en Texstudio  y para eso en la termina escribimos bg, con bg mantenemos el programa pausado en segundo plano y con fg en primer plano.Si lo que queremos es cerrar o "matar" el programa de una vez entonces usaremos el comando CTRL + C y listo, el programa se ha cerrado.
+	Otra forma de cerrar el programa es escribiendo en la terminal: kill -9 "PID del programa" el PID son unos números únicos de identificación de cualquier programa que queramos cerrar, es muy importante que no se nos olvide el "-9" después de "kill  pues este comando por sí sólo no hace nada.
+	Hicimos un repaso del comando "top" y aprendí que después de poner este comando si precionamos 1 nos mostrará los núcleos o cores.\\
+	
+	Posteriormente  seguimos viendo comandos en bash pero ahora  enfocandonos más en python; creamos un programa con el nombre 08.py y nos dirigmos al bash y usamos los siguientes comandos:\\
+	$ >ls -l 08.py$estando en el direcotrio dónde pusimos el programa, este comando nos muestra las caracteristicas del programa como hora y fecha de creación.\\
+	$>chmod +x 08.es$este sirve para darle los permios rwx, en este caso sólo se puede ejecutar pero si quisieramos que tenga todos los permisos se pone rwx después del + .\\
+	$> ./08.py$ ejecuta el programa de python en el shell.\\
+	$> python 08.py $es otra menera de ejecutar el programa.\\
+	$> find . -name "*py"$ nos muestra todos los archivos del tipo .py.\\
+	$> whereis python$ nos muestra el lugar donde se encuentra el programa Python.\\
+	
+	Esto es en idle:\\
+	 (almohadilla)!/usr/bin/python2.7 \\en nuestro idle al ponerlo en la parte superior le indica a bash que es un programa de Python.\\
+ (almohadilla)(quión bajo)*(guión bajo)coding: utf/8(guión bajo)*(guión bajo)\\ esto para que al escribir acentos,ñ,u otros carácteres propios del español no nos marque un error al correr el programa.\\	
+ Algo muy importante es saber diferenciar cuando hay una cadena y una variable por ejemplo: "x,y,z"= es una cadena y x,y,z=es una variable.
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
+	
