@@ -1,4 +1,4 @@
-#def paridad(x):
+def paridad(x):
 #    if x/2 == d and 2*d == x :
 #        return(si)
 #    else:
